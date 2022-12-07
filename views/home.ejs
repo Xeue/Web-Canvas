@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title><%- serverName %> - Web Canvas</title>
+    <link rel="icon" href="img/easle-48.png" sizes="48x48">
+    <link rel="icon" href="img/easle-96.png" sizes="96x96">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="lib/jquery-3.6.0.js"></script>
+    <script src="lib/cookie.js"></script>
+    <script src="js/home.js"></script>
+  </head>
+
+  <body id="mainBody" class="background">
+    <iframe id="downloadIframe" style="display:none;"></iframe>
+    <main id="scene" class="background">
+      <header>
+      </header>
+
+      <section>
+      </section>
+
+      <footer>
+      </footer>
+    </main>
+
+    <aside>
+    </aside>
+
+    <dialog id="toutorial" class="hidden">
+      <div>
+        <header id="tutHead">Help/Info</header>
+        <section id="tutBody">
+          This is version: <%=version%>
+        </section>
+        <footer id="tutFoot">
+          <button id="tutClose" type="button">Close</button>
+        </footer>
+      </div>
+    </dialog>
+
+    <menu id="rightClickMenu" class="menuContent">
+
+    </menu>
+  </body>
+
+</html>

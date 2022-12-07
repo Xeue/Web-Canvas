@@ -1,0 +1,28 @@
+{
+  "name": "web-canvas",
+  "version": "1.0.0",
+  "description": "For creating and compositing things on the web",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xeue/Web-Canvas.git"
+  },
+  "author": "Sam Chilton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xeue/Web-Canvas/issues"
+  },
+  "homepage": "https://github.com/Xeue/Web-Canvas#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "xeue-config": "^1.3.2",
+    "xeue-logs": "^1.5.2"
+  }
+}
